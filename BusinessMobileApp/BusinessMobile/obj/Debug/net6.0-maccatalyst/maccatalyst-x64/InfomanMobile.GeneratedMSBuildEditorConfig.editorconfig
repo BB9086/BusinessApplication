@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net6.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = InfomanMobile
+build_property.ProjectDir = C:\Users\blagoje\Desktop\Git\BusinessMobileApp\InfomanMobile\
+
+[C:/Users/blagoje/Desktop/Git/BusinessMobileApp/InfomanMobile/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InfomanMobile.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/blagoje/Desktop/Git/BusinessMobileApp/InfomanMobile/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InfomanMobile.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/blagoje/Desktop/Git/BusinessMobileApp/InfomanMobile/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InfomanMobile.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/blagoje/Desktop/Git/BusinessMobileApp/InfomanMobile/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InfomanMobile.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/blagoje/Desktop/Git/BusinessMobileApp/InfomanMobile/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InfomanMobile.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/blagoje/Desktop/Git/BusinessMobileApp/InfomanMobile/View/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InfomanMobile.View.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\LoginPage.xaml
+
+[C:/Users/blagoje/Desktop/Git/BusinessMobileApp/InfomanMobile/View/LoginPopupPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InfomanMobile.View.LoginPopupPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\LoginPopupPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\LoginPopupPage.xaml
+
+[C:/Users/blagoje/Desktop/Git/BusinessMobileApp/InfomanMobile/View/MonthsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InfomanMobile.View.MonthsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\MonthsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\MonthsPage.xaml
+
+[C:/Users/blagoje/Desktop/Git/BusinessMobileApp/InfomanMobile/View/StorePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InfomanMobile.View.StorePage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\StorePage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\StorePage.xaml
+
+[C:/Users/blagoje/Desktop/Git/BusinessMobileApp/InfomanMobile/View/WebViewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InfomanMobile.View.WebViewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\WebViewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\WebViewPage.xaml
+
+[C:/Users/blagoje/Desktop/Git/BusinessMobileApp/InfomanMobile/View/YearsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = InfomanMobile.View.YearsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\YearsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\YearsPage.xaml

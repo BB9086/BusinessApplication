@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:BusinessMobile.Model"
+             xmlns:viewmodel="clr-namespace:BusinessMobile.ViewModel"
+             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+             xmlns:skia="clr-namespace:SkiaSharp.Extended.UI.Controls;assembly=SkiaSharp.Extended.UI"
+             Title="Login Page"
+             x:Class="BusinessMobile.MainPage">
+
+    <!--Change status bar color - MVVM -->
+    <!--<Page.Behaviors>
+        <mct:StatusBarBehavior StatusBarColor="{Binding Color}"/>
+    </Page.Behaviors>-->
+
+    <!--Change status bar color - Code behind file -->
+    <Page.Behaviors>
+        <mct:StatusBarBehavior x:Name="statusBar"/>
+    </Page.Behaviors>
+
+    <Grid
+        ColumnDefinitions="*,*"
+        ColumnSpacing="5"
+        RowDefinitions="*,Auto,Auto,Auto"
+        RowSpacing="0">
+
+        <skia:SKLottieView
+                Grid.Row="0"
+                Source="131289-bear-animated-sticker.json"
+                RepeatCount="-1"
+                Grid.ColumnSpan="2"
+                SemanticProperties.Description="Coins"
+                HeightRequest="150"
+                WidthRequest="150"
+                HorizontalOptions="Center" />
+
+        <!--<Button
+            Grid.Row="1"
+            Grid.ColumnSpan="2"
+            Margin="8"
+            Command="{Binding GoToStoresCommand}"
+            IsEnabled="{Binding IsNotBusy}"
+            Style="{StaticResource ButtonOutline}"
+            Text="Login" />-->
+
+        <Button
+            Grid.Row="1"
+            Grid.ColumnSpan="2"
+            Margin="8"
+            Command="{Binding GoToLoginPageCommand}"
+            IsEnabled="{Binding IsNotBusy}"
+            Style="{StaticResource ButtonOutline}"
+            Text="Login" />
+
+        <Button
+            x:Name="AnimateBtn"
+            Clicked="AnimateBtn_Clicked"
+            Grid.Row="2"
+            Grid.ColumnSpan="2"
+            Margin="8"
+            Command="{Binding GoToWebViewCommand}"
+            IsEnabled="{Binding IsNotBusy}"
+            Style="{StaticResource StoreButton}"
+            Text="Our web site" />
+
+
+        <!--  Add this  -->
+        <!--<Button
+            Grid.Row="1"
+            Grid.Column="1"
+            Margin="8"
+            Command="{Binding GetClosestMonkeyCommand}"
+            IsEnabled="{Binding IsNotBusy}"
+            Style="{StaticResource ButtonOutline}"
+            Text="Find Closest" />-->
+
+
+        <ActivityIndicator
+            Grid.RowSpan="2"
+            Grid.ColumnSpan="2"
+            HorizontalOptions="FillAndExpand"
+            IsRunning="{Binding IsBusy}"
+            IsVisible="{Binding IsBusy}"
+            VerticalOptions="CenterAndExpand" />
+    </Grid>
+
+   
+</ContentPage>

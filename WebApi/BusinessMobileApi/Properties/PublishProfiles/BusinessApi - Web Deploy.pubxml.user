@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWxV8ALqP+UqLArGQGAoBMQAAAAACAAAAAAAQZgAAAAEAACAAAAATfHgDDcY7jsJedgJHmyMOUZ9+n7MLyrKadbV3HubHRgAAAAAOgAAAAAIAACAAAAB7o1Wz+SQdUI3AKO2pkjwXKWMSN4XSB1CVR9EJrmZ7dIAAAAA4UD8LSl/tjl+qQrKL9K5AEIoXdb22WXEMG8UI3DZG04KTXY7uFgQzrOgSHCP17Bul090Tzyjz4m9tudiY6NJwMzNnlbUYlqkWLtgoS0CMt0WIEO2IVCggS7yvNPkZD7itz1q4/XcCzlizDi19hFBeIUznVCGyPO9LF+1/nobATUAAAABSDLClbfhmewO9E3UMX7Ybsz6rAJqYRr+GOPxwCp7l3emTPfj8DlsCceBWEhqa+fTEO8CIWKUA0MPSeBu7FeZA</EncryptedPassword>
+    <History>False|2023-05-30T08:44:20.8438338Z;True|2023-01-25T11:47:05.3077954+01:00;True|2023-01-20T12:23:41.5537717+01:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="BusinessMobileApi.Data.BusinessDBContext">
+      <Value>Data Source=tcp:businessmobileapidbserver.database.windows.net,1433%3bInitial Catalog=BusinessAPI_db%3bUser Id=blagoje%40businessmobileapidbserver%3bPassword=Kassa1234!</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

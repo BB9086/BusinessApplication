@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:conv="clr-namespace:BusinessMobile.Converters"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:vm="clr-namespace:BusinessMobile.ViewModel"
+             x:Class="BusinessMobile.View.WebViewPage"
+             Title="Our cinemas"
+             x:DataType="vm:LoginViewModel">
+    <Grid RowDefinitions="*,Auto">
+        <WebView x:Name="webview" Source="{Binding Source}">
+            <WebView.Behaviors>
+                <toolkit:EventToCommandBehavior
+                    EventName="Navigated"
+                    Command="{Binding WebViewNavigatedCommand}">
+                    <toolkit:EventToCommandBehavior.EventArgsConverter>
+                        <conv:WebNavigatedEventArgsConverter/>
+                    </toolkit:EventToCommandBehavior.EventArgsConverter>
+                </toolkit:EventToCommandBehavior>
+            </WebView.Behaviors>
+        </WebView>
+        <HorizontalStackLayout Grid.Row="1" HorizontalOptions="Center" Spacing="12" Margin="10">
+            <Button
+                Text="Back"
+                IsEnabled="{Binding Source={x:Reference webview}, Path=CanGoBack}"
+                Command="{Binding NavigateBackCommand}"
+                Style="{StaticResource StoreButton}"
+                CommandParameter="{Binding Source={x:Reference webview}}" />
+            <Button
+                Text="Forward"
+                IsEnabled="{Binding Source={x:Reference webview}, Path=CanGoForward}"
+                Command="{Binding NavigateForwardCommand}"
+                Style="{StaticResource StoreButton}"
+                CommandParameter="{Binding Source={x:Reference webview}}" />
+            <!--<Button
+                Text="Refresh"
+                Command="{Binding RefreshPageCommand}"
+                Style="{StaticResource StoreButton}"
+                CommandParameter="{Binding Source={x:Reference webview}}" />-->
+            <Button
+                Text="Open in browser"
+                Style="{StaticResource StoreButton}"
+                Command="{Binding OpenInBrowserCommand}" />
+        </HorizontalStackLayout>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>InfomanMobile</name>
+    </assembly>
+    <members>
+        <member name="P:InfomanMobile.ViewModel.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:InfomanMobile.ViewModel.BaseViewModel.isBusy"/>
+        </member>
+        <member name="P:InfomanMobile.ViewModel.BaseViewModel.IsRefreshing">
+            <inheritdoc cref="F:InfomanMobile.ViewModel.BaseViewModel.isRefreshing"/>
+        </member>
+        <member name="P:InfomanMobile.ViewModel.LoginViewModel.Source">
+            <inheritdoc cref="F:InfomanMobile.ViewModel.LoginViewModel.source"/>
+        </member>
+        <member name="F:InfomanMobile.ViewModel.LoginViewModel.goToLoginPageCommand">
+            <summary>The backing field for <see cref="P:InfomanMobile.ViewModel.LoginViewModel.GoToLoginPageCommand"/>.</summary>
+        </member>
+        <member name="P:InfomanMobile.ViewModel.LoginViewModel.GoToLoginPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:InfomanMobile.ViewModel.LoginViewModel.GoToLoginPage"/>.</summary>
+        </member>
+        <member name="F:InfomanMobile.ViewModel.LoginViewModel.goToStoresCommand">
+            <summary>The backing field for <see cref="P:InfomanMobile.ViewModel.LoginViewModel.GoToStoresCommand"/>.</summary>
+        </member>
+        <member name="P:InfomanMobile.ViewModel.LoginViewModel.GoToStoresCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:InfomanMobile.ViewModel.LoginViewModel.GoToStores(InfomanMobile.Model.Credentials)"/>.</summary>
+        </member>
+        <member name="F:InfomanMobile.ViewModel.LoginViewModel.showCredentialMessageCommand">
+            <summary>The backing field for <see cref="P:InfomanMobile.ViewModel.LoginViewModel.ShowCredentialMessageCommand"/>.</summary>
+        </member>
+        <member name="P:InfomanMobile.ViewModel.LoginViewModel.ShowCredentialMessageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:InfomanMobile.ViewModel.LoginViewModel.ShowCredentialMessage"/>.</summary>
+        </member>
+        <member name="F:InfomanMobile.ViewModel.LoginViewModel.goToWebViewCommand">
+            <summary>The backing field for <see cref="P:InfomanMobile.ViewModel.LoginViewModel.GoToWebViewCommand"/>.</summary>
+        </member>
+        <member name="P:InfomanMobile.ViewModel.LoginViewModel.GoToWebViewCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:InfomanMobile.ViewModel.LoginViewModel.GoToWebView"/>.</summary>
+        </member>
+        <member name="F:InfomanMobile.ViewModel.LoginViewModel.webViewNavigatedCommand">
+            <summary>The backing field for <see cref="P:InfomanMobile.ViewModel.LoginViewModel.WebViewNavigatedCommand"/>.</summary>
+        </member>
+        <member name="P:InfomanMobile.ViewModel.LoginViewModel.WebViewNavigatedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:InfomanMobile.ViewModel.LoginViewModel.WebViewNavigated(Microsoft.Maui.Controls.WebNavigatedEventArgs)"/>.</summary>
+        </member>
+        <member name="F:InfomanMobile.ViewModel.LoginViewModel.navigateBackCommand">
+            <summary>The backing field for <see cref="P:InfomanMobile.ViewModel.LoginViewModel.NavigateBackCommand"/>.</summary>
+        </member>
+        <member name="P:InfomanMobile.ViewModel.LoginViewModel.NavigateBackCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:InfomanMobile.ViewModel.LoginViewModel.NavigateBack(Microsoft.Maui.Controls.WebView)"/>.</summary>
+        </member>
+        <member name="F:InfomanMobile.ViewModel.LoginViewModel.navigateForwardCommand">
+            <summary>The backing field for <see cref="P:InfomanMobile.ViewModel.LoginViewModel.NavigateForwardCommand"/>.</summary>
+        </member>
+        <member name="P:InfomanMobile.ViewModel.LoginViewModel.NavigateForwardCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:InfomanMobile.ViewModel.LoginViewModel.NavigateForward(Microsoft.Maui.Controls.WebView)"/>.</summary>
+        </member>
+        <member name="F:InfomanMobile.ViewModel.LoginViewModel.refreshPageCommand">
+            <summary>The backing field for <see cref="P:InfomanMobile.ViewModel.LoginViewModel.RefreshPageCommand"/>.</summary>
+        </member>
+        <member name="P:InfomanMobile.ViewModel.LoginViewModel.RefreshPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:InfomanMobile.ViewModel.LoginViewModel.RefreshPage(Microsoft.Maui.Controls.WebView)"/>.</summary>
+        </member>
+        <member name="F:InfomanMobile.ViewModel.LoginViewModel.openInBrowserCommand">
+            <summary>The backing field for <see cref="P:InfomanMobile.ViewModel.LoginViewModel.OpenInBrowserCommand"/>.</summary>
+        </member>
+        <member name="P:InfomanMobile.ViewModel.LoginViewModel.OpenInBrowserCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:InfomanMobile.ViewModel.LoginViewModel.OpenInBrowser"/>.</summary>
+        </member>
+        <member name="F:InfomanMobile.ViewModel.MonthsViewModel.getStoreMonthsCommand">
+            <summary>The backing field for <see cref="P:InfomanMobile.ViewModel.MonthsViewModel.GetStoreMonthsCommand"/>.</summary>
+        </member>
+        <member name="P:InfomanMobile.ViewModel.MonthsViewModel.GetStoreMonthsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:InfomanMobile.ViewModel.MonthsViewModel.GetStoreMonthsAsync(System.Int32)"/>.</summary>
+        </member>
+        <member name="F:InfomanMobile.ViewModel.MonthsViewModel.goToYearsCommand">
+            <summary>The backing field for <see cref="P:InfomanMobile.ViewModel.MonthsViewModel.GoToYearsCommand"/>.</summary>
+        </member>
+        <member name="P:InfomanMobile.ViewModel.MonthsViewModel.GoToYearsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:InfomanMobile.ViewModel.MonthsViewModel.GoToYears(InfomanMobile.Model.StoreInfo)"/>.</summary>
+        </member>
+        <member name="F:InfomanMobile.ViewModel.MonthsViewModel.goToStoresCommand">
+            <summary>The backing field for <see cref="P:InfomanMobile.ViewModel.MonthsViewModel.GoToStoresCommand"/>.</summary>
+        </member>
+        <member name="P:InfomanMobile.ViewModel.MonthsViewModel.GoToStoresCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:InfomanMobile.ViewModel.MonthsViewModel.GoToStores"/>.</summary>
+        </member>
+        <member name="F:InfomanMobile.ViewModel.StoresViewModel.getStoresCommand">
+            <summary>The backing field for <see cref="P:InfomanMobile.ViewModel.StoresViewModel.GetStoresCommand"/>.</summary>
+        </member>
+        <member name="P:InfomanMobile.ViewModel.StoresViewModel.GetStoresCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:InfomanMobile.ViewModel.StoresViewModel.GetStoresAsync"/>.</summary>
+        </member>
+        <member name="F:InfomanMobile.ViewModel.StoresViewModel.goToMonthsCommand">
+            <summary>The backing field for <see cref="P:InfomanMobile.ViewModel.StoresViewModel.GoToMonthsCommand"/>.</summary>
+        </member>
+        <member name="P:InfomanMobile.ViewModel.StoresViewModel.GoToMonthsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:InfomanMobile.ViewModel.StoresViewModel.GoToMonths(InfomanMobile.Model.StoreInfo)"/>.</summary>
+        </member>
+        <member name="F:InfomanMobile.ViewModel.YearsViewModel.getStoreYearsCommand">
+            <summary>The backing field for <see cref="P:InfomanMobile.ViewModel.YearsViewModel.GetStoreYearsCommand"/>.</summary>
+        </member>
+        <member name="P:InfomanMobile.ViewModel.YearsViewModel.GetStoreYearsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:InfomanMobile.ViewModel.YearsViewModel.GetStoreYearsAsync(System.Int32)"/>.</summary>
+        </member>
+        <member name="F:InfomanMobile.ViewModel.YearsViewModel.goToMonthsCommand">
+            <summary>The backing field for <see cref="P:InfomanMobile.ViewModel.YearsViewModel.GoToMonthsCommand"/>.</summary>
+        </member>
+        <member name="P:InfomanMobile.ViewModel.YearsViewModel.GoToMonthsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:InfomanMobile.ViewModel.YearsViewModel.GoToMonths(InfomanMobile.Model.StoreInfo)"/>.</summary>
+        </member>
+        <member name="F:InfomanMobile.ViewModel.YearsViewModel.goToStoresCommand">
+            <summary>The backing field for <see cref="P:InfomanMobile.ViewModel.YearsViewModel.GoToStoresCommand"/>.</summary>
+        </member>
+        <member name="P:InfomanMobile.ViewModel.YearsViewModel.GoToStoresCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:InfomanMobile.ViewModel.YearsViewModel.GoToStores"/>.</summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_DatePicker.TextColorTo(Microsoft.Maui.Controls.DatePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Editor.TextColorTo(Microsoft.Maui.Controls.Editor,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Entry.TextColorTo(Microsoft.Maui.Controls.Entry,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Label.TextColorTo(Microsoft.Maui.Controls.Label,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Picker.TextColorTo(Microsoft.Maui.Controls.Picker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_RadioButton.TextColorTo(Microsoft.Maui.Controls.RadioButton,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_SearchBar.TextColorTo(Microsoft.Maui.Controls.SearchBar,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_TimePicker.TextColorTo(Microsoft.Maui.Controls.TimePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+    </members>
+</doc>

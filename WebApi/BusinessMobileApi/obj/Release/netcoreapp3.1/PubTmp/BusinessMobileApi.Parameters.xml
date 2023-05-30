@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="BusinessApi" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\blagoje\\Desktop\\Business\\BusinessApp\\WebApi\\BusinessMobileApi\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="BusinessMobileApi.Data.BusinessDBContext" description="" value="Data Source=tcp:businessdbdbserver.database.windows.net,1433;Initial Catalog=BusinessDB;User Id=blagoje@businessdbdbserver;Password=Kassa1234!" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\blagoje\\Desktop\\Business\\BusinessApp\\WebApi\\BusinessMobileApi\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\BusinessMobileApi\.Data\.BusinessDBContext\.sql$" />
+  </parameter>
+</parameters>

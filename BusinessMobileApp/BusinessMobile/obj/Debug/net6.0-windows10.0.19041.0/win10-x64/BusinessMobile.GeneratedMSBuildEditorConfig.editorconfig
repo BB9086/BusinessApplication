@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net6.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BusinessMobile
+build_property.ProjectDir = C:\Users\blagoje\Desktop\Business\BusinessApp\BusinessMobileApp\BusinessMobile\
+
+[C:/Users/blagoje/Desktop/Business/BusinessApp/BusinessMobileApp/BusinessMobile/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusinessMobile.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/blagoje/Desktop/Business/BusinessApp/BusinessMobileApp/BusinessMobile/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusinessMobile.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/blagoje/Desktop/Business/BusinessApp/BusinessMobileApp/BusinessMobile/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusinessMobile.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/blagoje/Desktop/Business/BusinessApp/BusinessMobileApp/BusinessMobile/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusinessMobile.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/blagoje/Desktop/Business/BusinessApp/BusinessMobileApp/BusinessMobile/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusinessMobile.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/blagoje/Desktop/Business/BusinessApp/BusinessMobileApp/BusinessMobile/View/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusinessMobile.View.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\LoginPage.xaml
+
+[C:/Users/blagoje/Desktop/Business/BusinessApp/BusinessMobileApp/BusinessMobile/View/LoginPopupPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusinessMobile.View.LoginPopupPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\LoginPopupPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\LoginPopupPage.xaml
+
+[C:/Users/blagoje/Desktop/Business/BusinessApp/BusinessMobileApp/BusinessMobile/View/MonthsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusinessMobile.View.MonthsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\MonthsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\MonthsPage.xaml
+
+[C:/Users/blagoje/Desktop/Business/BusinessApp/BusinessMobileApp/BusinessMobile/View/StorePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusinessMobile.View.StorePage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\StorePage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\StorePage.xaml
+
+[C:/Users/blagoje/Desktop/Business/BusinessApp/BusinessMobileApp/BusinessMobile/View/WebViewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusinessMobile.View.WebViewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\WebViewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\WebViewPage.xaml
+
+[C:/Users/blagoje/Desktop/Business/BusinessApp/BusinessMobileApp/BusinessMobile/View/YearsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BusinessMobile.View.YearsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\YearsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\YearsPage.xaml

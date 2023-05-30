@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:BusinessMobile.Model"
+             xmlns:viewmodel="clr-namespace:BusinessMobile.ViewModel"
+             x:Class="BusinessMobile.View.MonthsPage"
+             Title="{Binding Store.Name, StringFormat='{0} - Months'}">
+    <Grid
+        ColumnDefinitions="*,*"
+        ColumnSpacing="5"
+        RowDefinitions="*,Auto,Auto"
+        RowSpacing="0">
+        <RefreshView
+            Grid.ColumnSpan="2"
+            Command="{Binding GetStoreMonthsCommand}"
+            IsRefreshing="{Binding IsRefreshing}">
+            <CollectionView
+                ItemsSource="{Binding StoreMonths}"
+                SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="model:StoreMonth">
+                        <Grid Padding="5">
+                            <Frame HeightRequest="100" Style="{StaticResource CardView}">
+                                <Grid Padding="1" ColumnDefinitions="120,*">
+                                    <VerticalStackLayout
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="Start"
+                                        Grid.Column="0"
+                                        Padding="10">
+                                        <Label Style="{StaticResource MediumLabel}" Text="{Binding Date}" />
+                                        <Label Style="{StaticResource MediumLabel}" Text="{Binding DName}"/>
+                                    </VerticalStackLayout>
+                                    <VerticalStackLayout
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="Start"
+                                        Grid.Column="1"
+                                        Padding="10">
+                                        <Label VerticalOptions="Center" HorizontalOptions="Start" Style="{StaticResource LargeLabel}" Text="{Binding Amount, StringFormat='Income: €{0}'}" />
+                                        <Label  VerticalOptions="End" HorizontalOptions="Start" Style="{StaticResource MediumLabel}" Text="{Binding Idc, StringFormat='The number of sold tickets: {0}'}" />
+                                    </VerticalStackLayout>
+                                   
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </RefreshView>
+
+        <!--<Button
+            Grid.Row="1"
+            Grid.ColumnSpan="2"
+            Margin="8"
+            Command="{Binding GetStoresCommand}"
+            IsEnabled="{Binding IsNotBusy}"
+            Style="{StaticResource ButtonOutline}"
+            Text="Get Stores" />-->
+
+        <Button 
+            Grid.Row="1"
+            Grid.Column="0"
+            Text="Months"
+            Margin="8"
+            Command="{Binding GetStoreMonthsCommand}"
+            CommandParameter="{Binding Store.Number}"
+            IsEnabled="{Binding IsNotBusy}"
+            Style="{StaticResource ButtonOutline}"
+                />
+
+        <Button 
+            Grid.Row="1"
+            Grid.Column="1"
+            Text="Years"
+            Margin="8"
+            Command="{Binding GoToYearsCommand}"
+            CommandParameter="{Binding Store}"
+            IsEnabled="{Binding IsNotBusy}"
+            Style="{StaticResource ButtonOutline}"
+                />
+
+        <Button 
+            Grid.Row="2"
+            Grid.ColumnSpan="2"
+            Text="Go to Stores"
+            Margin="8"
+            Command="{Binding GoToStoresCommand}"
+            IsEnabled="{Binding IsNotBusy}"
+            Style="{StaticResource ButtonOutline}"
+                />
+
+        <ActivityIndicator
+            Grid.RowSpan="2"
+            Grid.ColumnSpan="2"
+            HorizontalOptions="FillAndExpand"
+            IsRunning="{Binding IsBusy}"
+            IsVisible="{Binding IsBusy}"
+            VerticalOptions="CenterAndExpand" />
+    </Grid>
+
+
+</ContentPage>

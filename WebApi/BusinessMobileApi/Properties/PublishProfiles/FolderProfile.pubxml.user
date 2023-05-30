@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\BusinessApp</_PublishTargetUrl>
+    <History>True|2023-01-19T12:48:07.9070284Z;False|2023-01-19T13:45:25.8858329+01:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="BusinessDBConnection">
+      <Value>Server=DESKTOP-OOMTHRE\SQLEXPRESS01%3bDatabase=BusinessDB%3bTrusted_Connection=True%3bMultipleActiveResultSets=True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BusinessMobileApi.Data.BusinessDBContext">
+      <Value>Server=DESKTOP-OOMTHRE\SQLEXPRESS01%3bDatabase=BusinessDB%3bTrusted_Connection=True%3bMultipleActiveResultSets=True%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
