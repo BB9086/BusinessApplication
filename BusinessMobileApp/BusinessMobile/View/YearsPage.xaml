@@ -35,7 +35,7 @@
                                         Grid.Column="1"
                                         Padding="10">
                                         <Label VerticalOptions="Center" HorizontalOptions="Start" Style="{StaticResource LargeLabel}" Text="{Binding Amount, StringFormat='Income: €{0}'}" />
-                                        <Label  VerticalOptions="End" HorizontalOptions="Start" Style="{StaticResource MediumLabel}" Text="{Binding Idc, StringFormat='The number of sold tickets: {0}'}" />
+                                        <Label  VerticalOptions="End" HorizontalOptions="Start" Style="{StaticResource MediumLabel}" Text="{Binding Idc, StringFormat='# sold tickets: {0}'}" />
                                     </VerticalStackLayout>
                                 </Grid>
                             </Frame>
